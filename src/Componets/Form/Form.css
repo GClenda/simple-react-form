@@ -1,0 +1,14 @@
+.thank-you-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: white;
+}
+
+.thank-you-image {
+    max-width: 100%;  /* Ensure the image scales responsively */
+    max-height: 50%;  /* Adjust height as needed */
+    margin-top: 20px; /* Space between text and image */
+}
