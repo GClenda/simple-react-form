@@ -12,3 +12,10 @@
     max-height: 50%;  /* Adjust height as needed */
     margin-top: 20px; /* Space between text and image */
 }
+
+.form-dog-image {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    display: block;
+}
