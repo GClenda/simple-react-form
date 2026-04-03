@@ -1,6 +1,7 @@
 
 import React, { useState } from "react";
 import animalsImage from "../../Assets/Images/animals.jpg"
+import dogSvg from "../../Assets/Images/dog.svg"
 import "./Form.css"
 
 
@@ -46,6 +47,7 @@ export default function Form() {
 
     return (
         <form onSubmit={handleSubmit}>
+            <img src={dogSvg} alt="Dog" className="form-dog-image" />
             <label htmlFor="firstName">First Name* </label>
             <input
                 type="text"
